@@ -1,0 +1,12 @@
+[{"imageQuest":"'Thumbnail\\thumbnail1.jpg'","Qno":1,"Question":"<img src='clues\\q1.jpg'/>","Answer":"Mutating Table Error"},
+{"imageQuest":"'Thumbnail\\thumbnail3.jpg'","Qno":2,"Question":"<img src='clues\\q2.jpg'/>","Answer":"Slowly Changing Dimension"},
+{"imageQuest":"'Thumbnail\\thumbnail4.jpg'","Qno":3,"Question":"<img src='clues\\q3.jpg'/>","Answer":"Exception"},
+{"imageQuest":"'Thumbnail\\thumbnail5.jpg'","Qno":4,"Question":"<img src='clues\\q4.jpg'/>","Answer":"Context Switching"},
+{"imageQuest":"'Thumbnail\\thumbnail6.jpg'","Qno":5,"Question":"<img src='clues\\q5.jpg'/>","Answer":"Left Outer Join"},
+{"imageQuest":"'Thumbnail\\thumbnail9.jpg'","Qno":6,"Question":"<img src='clues\\q6.jpg'/>","Answer":"Checkpoint"},
+{"imageQuest":"'Thumbnail\\thumbnail12.jpg'","Qno":7,"Question":"<img src='clues\\q7.jpg'/>","Answer":"Index"},
+{"imageQuest":"'Thumbnail\\thumbnail14.jpg'","Qno":8,"Question":"<img src='clues\\q8.jpg'/>","Answer":"Left Trim"},
+{"imageQuest":"'Thumbnail\\thumbnail15.jpg'","Qno":9,"Question":"<img src='clues\\q9.jpg'/>","Answer":"FlashBack Query"},
+{"imageQuest":"'Thumbnail\\thumbnail16.jpg'","Qno":10,"Question":"<img src='clues\\q10.jpg'/>","Answer":"Sub-Partitions"},
+{"imageQuest":"'Thumbnail\\thumbnail18.jpg'","Qno":11,"Question":"<img src='clues\\q11.jpg'/>","Answer":"Dead Lock"},
+{"imageQuest":"'Thumbnail\\thumbnail20.jpg'","Qno":12,"Question":"<img src='clues\\q12.jpg'/>","Answer":"Pluggable Database"}]

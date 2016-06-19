@@ -1,0 +1,789 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	
+       
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        width:900px;
+        
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	color: #285FA8;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p, ol {
+	line-height: 140%;
+}
+
+strong {
+	
+}
+
+a {
+	color: #000; /*FF3A00*/
+}
+
+a:hover {
+	/*text-decoration: none;*/
+	text-decoration:underline;
+	color:#FF3A00;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+	margin-top: 5px;
+	margin-right: 30px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	overflow: hidden;
+	/*background: #FFFFFF url(images/slider-caption-bg.jpg) repeat-x left top;  trying*/
+	background: #FFFFFF url(images/wrapper-bg.jpg) repeat-x left top;
+	background-color: #fff;
+				border: 1px solid #ccc;
+				padding: 10px;
+				width: 800px;
+				height: 400px;
+				margin: -210px 0 0 -410px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+}
+
+
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	height: 30px; 
+	position: relative;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	height: 58px;
+	padding-top: 3px;
+	margin: 0 10px 0 0;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 {
+	height: 53px;
+}
+
+#logo h1 span {
+	display: block;
+	height: 58px;
+	background: #FF3A00;
+	line-height: 38px;
+	letter-spacing: -3px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+	color: #FFFFFF;
+	padding: 0 25px 0 22px;
+}
+
+#logo h1 a {
+	display: block;
+	height: 73px;
+	background: url(images/lower-triangle-bg.png) no-repeat left bottom;
+	text-decoration: none;
+}
+
+/** MENU */
+
+#menu-wrapper {
+	float: left;
+	width: 700px;
+	padding-top: 0px; /*drop down at top*/
+}
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 37px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #404142;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	height: 37px;
+	text-decoration: none;
+	color: #404142;
+}
+
+#menu a:hover {
+	background: #393939;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .arrow {
+}
+
+#menu span {
+	display: inline-block;
+	height: 37px;
+	padding: 0px 15px 0px 15px;
+}
+
+#menu li.active {
+	background: #393939;
+	color: #FFFFFF;
+}
+
+#menu .arrow {
+}
+
+/** DROPOTRON */
+
+.dropotron li.opener {
+}
+
+.dropotron {
+	width: 320px;
+	padding: 20px 0px 20px 0px;
+	background: url(images/menu-dropotron-bg.png) repeat left bottom;
+	list-style: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	color: #D6D7D7;
+}
+
+.dropotron a, .dropotron span {
+	display: block;
+	line-height: 24px;
+	border-top: 1px solid #4D4D4D;
+	text-decoration: none;
+	color: #D2D3D3;
+}
+
+.dropotron li {
+	height: 34px;
+	padding: 0px 14px 0px 14px;
+	color: #D2D3D3;
+}
+
+.dropotron li:hover {
+}
+
+.dropotron li:hover > a, .dropotron li:hover > span {
+}
+
+.dropotron li .arrow {
+}
+
+.dropotron .first a {
+	border-top: none;
+}
+
+.dropotron li:hover > span {
+}
+
+/** SEARCH */
+
+#search {
+	width: 281px;
+	position: absolute;
+	top: -80px;
+	right: -7px;
+	height: 123px;
+}
+
+#search form {
+	float: right;
+	margin: 0px;
+	padding: 84px 0px 0px 10px;
+	height: 52px;
+	background: url(images/search-bottom-bg.png) no-repeat right bottom;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input.blank {
+	color: #A7A7A7;
+}
+
+#search-text {
+	outline: none;
+	float: left;
+	width: 223px;
+	height: 37px;
+	padding: 0px 0px 0px 10px;
+	background: #FFFFFF;
+	border: none;
+	letter-spacing: -1px;
+	line-height: 37px;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #696969;
+}
+
+#search-submit {
+	float: right;
+	width: 37px;
+	height: 37px;
+	background: url(images/search-icon-bg.jpg) no-repeat left top;
+	border: none;
+	text-indent: -999999em;
+}
+
+/** PAGE */
+
+#page-wrapper {
+	overflow: hidden;
+	padding: 50px 0px 50px 0px;
+	/*background: url(images/page-wrapper-bg.jpg) no-repeat center top;*/
+}
+
+.homepage #page {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#page {
+	overflow: hidden;
+	width: 950px;
+	padding: 0px 25px;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 610px;
+	padding: 25px 35px 0px 0px;
+	border-right: 1px solid #CCCCCC;
+}
+
+.two-column2 #content {
+	float: right;
+	padding: 25px 0px 0px 35px;
+	border-left: 1px solid #CCCCCC;
+	border-right: none;
+}
+
+#content h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -3px;
+	font-size: 35px;
+}
+
+/** CONTENT */
+
+#wide-content {
+}
+
+#wide-content h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -3px;
+	font-size: 35px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 270px;
+	padding-top: 25px;
+}
+
+.two-column2 #sidebar {
+	float: left;
+}
+
+#sidebar h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -2px;
+	font-size: 25px;
+}
+
+/** FOOTER */
+
+#footer {
+	overflow: hidden;
+	height: 35px;
+	border-top: 1px solid #393939;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 50px 0px 0px 0px;
+	text-align: center;
+	color: #444444;
+}
+
+#footer a {
+	color: #444444;
+}
+
+/** FOOTER CONTENT */
+
+#footer-content {
+	overflow: hidden;
+	width: 950px;
+	margin: 0px auto;
+	padding: 20px 0px;
+	color: #707070;
+}
+
+#footer-content h2 {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	color: #C5C5C5;
+}
+
+#footer-content ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#footer-content li {
+	padding: 10px 0px 14px 0px;
+	border-top: 1px solid #383838;
+}
+
+#footer-content li a {
+	color: #707070;
+}
+
+#footer-content .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+#footer-content #column1 {
+	float: left;
+	width: 185px;
+	padding: 20px 34px 20px 0px;
+	border-right: 1px solid #393939;
+}
+
+#footer-content #column2 {
+	float: left;
+	width: 185px;
+	padding: 20px 34px 20px 35px;
+	border-right: 1px solid #393939;
+}
+
+#footer-content #column3 {
+	float: left;
+	width: 440px;
+	padding: 20px 0px 20px 35px;
+}
+
+/** CONTENT */
+
+#contact-wrapper {
+	overflow: hidden;
+	height: 107px;
+	background: #353535;
+	color: #969696;
+}
+
+#contact {
+	width: 950px;
+	padding: 37px 25px 0px 25px;
+}
+
+#contact a {
+	color: #969696;
+}
+
+#contact .link1 {
+	display: inline-block;
+	height: 32px;
+	margin-left: 20px;
+	padding-left: 45px;
+	line-height: 32px;
+	background: url(images/contact-icon-01.png) no-repeat left top;
+}
+
+#contact .link2 {
+	display: inline-block;
+	height: 32px;
+	margin-left: 20px;
+	padding-left: 45px;
+	line-height: 32px;
+	background: url(images/contact-icon-02.png) no-repeat left top;
+}
+
+#contact .link3 {
+	display: inline-block;
+	height: 32px;
+	margin-left: 20px;
+	padding-left: 45px;
+	line-height: 32px;
+	background: url(images/contact-icon-03.png) no-repeat left top;
+}
+
+#contact .link4 {
+	display: inline-block;
+	height: 32px;
+	margin-left: 20px;
+	padding-left: 45px;
+	line-height: 32px;
+	background: url(images/contact-icon-04.png) no-repeat left top;
+}
+
+
+
+/** TWO COLUMN 1 */
+
+#two-column1 {
+	overflow: hidden;
+	width: 950px;
+	padding: 50px 25px 25px 25px;
+	border-bottom: 1px solid #CCCCCC;
+	/*background: url(images/page-shadow-bg.jpg) no-repeat left top;*/
+}
+
+#two-column1 #colA {
+	float: left;
+	width: 610px;
+	padding: 20px 34px 0px 0px;
+	border-right: 1px solid #CCCCCC;
+}
+
+#two-column1 #colA h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -3px;
+	font-size: 35px;
+}
+
+#two-column1 #colB {
+	float: right;
+	width: 270px;
+	padding: 2px 0px 0px 0px;
+}
+
+#two-column1 #colB h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -1px;
+	font-size: 25px;
+}
+
+/** TWO COLUMN 2 */
+
+#two-column2 {
+	overflow: hidden;
+	width: 950px;
+	padding: 1px 1px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#two-column2 #colC {
+	float: left;
+	width: 600px;
+	padding: 1px 1px 0px 0px;
+	border-right: 1px solid #CCCCCC;
+}
+
+#two-column2 #colD {
+	float: right;
+	width: 300px; /*width of Nehru pic & quote*/
+	padding: 5px 0px 0px 0px;
+}
+
+/** FOUR COLUMNS */
+
+#four-column-content {
+	overflow: hidden;
+	width: 870px;
+	padding: 15px 15px;
+}
+
+#four-column-content h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -3px;
+	font-size: 25px;
+	color: #414141;
+}
+
+#four-column-content #fbox1 {
+	float: left;
+	width: 270px;
+	padding: 10px 14px 0px 0px;
+}
+
+#four-column-content #fbox2 {
+	float: left;
+	width: 300px;
+	padding: 10px 0px 0px 12px;
+	border-left: 1px solid #CCCCCC;
+}
+
+
+
+#four-column-content #fbox4 {
+	float:right;
+	width: 550px; /*scrolling events width*/
+	padding: 8px 0px 0px 12px;
+	border-left: 1px solid #CCCCCC;
+}
+
+/** LINK STYLE 1 */
+
+.link-style1 {
+	display: block;
+	height: 48px;
+	margin: 0px;
+	padding-right: 15px;
+	background: url(images/link-style1-pointer-bg.png) no-repeat right top;
+}
+
+.link-style1 a {
+	display: block;
+	height: 48px;
+	padding: 0px 0px 0px 20px;
+	background: #434343;
+	line-height: 48px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+/** LINK STYLE 2 */
+
+.link-style2 {
+	display: block;
+	height: 63px;
+	margin: 0px;
+	padding-right: 15px;
+	background: url(images/link-style2-pointer-bg.png) no-repeat right top;
+}
+
+.link-style2 span {
+	display: block;
+	height: 48px;
+	padding: 0px 0px 0px 20px;
+	background: #FF3A00;
+	line-height: 48px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.link-style2 a {
+	display: block;
+	height: 63px;
+	background: url(images/link-style2-bottom-bg.png) no-repeat left bottom;
+}
+
+/** LINK STYLE 3 */
+
+.link-style3 {
+	display: block;
+	height: 63px;
+	margin: 30px 0px 0px 0px;
+	padding-right: 15px;
+	background: url(images/link-style2-pointer-bg.png) no-repeat right top;
+}
+
+.link-style3 a {
+	display: block;
+	height: 63px;
+	background: url(images/link-style2-bottom-bg.png) no-repeat left bottom;
+}
+
+.link-style3 span {
+	display: block;
+	height: 48px;
+	padding: 0px 0px 0px 20px;
+	background: #FF3A00;
+	line-height: 48px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+/** LINK STYLE 4 */
+
+.link-style4 {
+	display: block;
+	height: 63px;
+	margin: 10px 15px 0px 0px;
+	padding-right: 15px;
+	background: url(images/link-style4-pointer-bg.png) no-repeat right top;
+}
+
+.link-style4 a {
+	display: block;
+	height: 63px;
+	background: url(images/link-style4-bottom-bg.png) no-repeat left bottom;
+}
+
+.link-style4 span {
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	padding: 0px 20px 0px 20px;
+	background: #FF3A00;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+/** LINK STYLE 5 */
+
+.link-style5 {
+	display: block;
+	height: 63px;
+	margin: 10px 0px 0px 0px;
+	padding-right: 15px;
+	background: url(images/link-style5-pointer-bg.png) no-repeat right top;
+}
+
+.link-style5 a {
+	display: block;
+	height: 63px;
+	background: url(images/link-style5-bottom-bg.png) no-repeat left bottom;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.link-style5 span {
+	display: block;
+	height: 48px;
+	padding: 0px 20px 0px 20px;
+	background: #808080;
+	line-height: 48px;
+}
+
+/** LINK ALIGNMENT STYLE */
+
+.link-alignleft {
+	float: left;
+}
+
+.link-alignright {
+}
+
+/** LIST STYLE 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 0px 0px 15px 0px;
+}
+
+/** BOX 1 */
+
+#box1 {
+	overflow: hidden;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#box1 .link-style3 {
+	display: inline-block;
+	margin: 20px 0px 0px 0px;
+}
+
+#box1 .link-style3 span {
+	padding-right: 20px;
+}
+
+/** BOX 2 */
+
+#box2 {
+	overflow: hidden;
+	padding: 40px 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+/** BOX 3 */
+
+#box3 {
+	overflow: hidden;
+	padding-top: 40px;
+}

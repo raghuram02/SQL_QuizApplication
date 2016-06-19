@@ -1,0 +1,49 @@
+var question="<div class='question'><p><font size= '4px' color='red'><i>Question  :"+j.Qno+"</i></font><br>"+j.Question+"</p></div>"
+				$('.contents').append(question);
+				
+				var Option1="<div class='Option1'><p>A)  "+j.Option1+"</p></div>"
+				if(j.Option1!="null"){
+				$('.contents').append(Option1);}
+				var Option2="<div class='Option2'><p>B)  "+j.Option2+"</p></div>"
+				if(j.Option2!="null"){
+				$('.contents').append(Option2);}
+				var Option3="<div class='Option3'><p>C)  "+j.Option3+"</p></div>"
+				if(j.Option3!="null"){
+				$('.contents').append(Option3);}
+				var Option4="<div class='Option4'><p>D)  "+j.Option4+"</p></div>"
+				if(j.Option4!="null"){
+				$('.contents').append(Option4);}
+				var Option5="<div class='Option5'><p>E)  "+j.Option5+"</p></div>"
+				if(j.Option5!="null"){
+				$('.contents').append(Option5);}
+				var Option6="<div class='Option6'><p>F)  "+j.Option6+"</p></div>"
+				if(j.Option6!="null"){
+				$('.contents').append(Option6);}
+				var Option7="<div class='Option7'><p>G)  "+j.Option7+"</p></div>"
+				if(j.Option7!="null"){
+				$('.contents').append(Option7);}
+				var ans="<div class='ans'><p><font size= '4px' color='green'><i>Answer:</i></font><br>"+j.Answer+"</p></div>"
+				$('.contents').append(ans);
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				var Question2="<div class='question2'><p>Question  2:<br>"+j.Question2+"</p></div>"
+				var Question3="<div class='question3'><p>Question  3:<br>"+j.Question3+"</p></div>"
+				var Question4="<div class='question4'><p>Question  4:<br>"+j.Question4+"</p></div>"
+				var Question5="<div class='question5'><p>Question  5:<br>"+j.Question5+"</p></div>"
+				var Question6="<div class='question6'><p>Question  6:<br>"+j.Question6+"</p></div>"
+				var Question7="<div class='question7'><p>Question  7:<br>"+j.Question7+"</p></div>"
+				var Question8="<div class='question8'><p>Question  8:<br>"+j.Question8+"</p></div>"
+				var Question9="<div class='question9'><p>Question  9:<br>"+j.Question9+"</p></div>"
+				
